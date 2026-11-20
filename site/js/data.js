@@ -19,7 +19,8 @@ window.GAME_DATA = {
     { title: "Spectre du Rollback",       power: "Revient à la version d'hier avant que le client ne remarque." },
     { title: "Forgeron des Certificats",  power: "Renouvelle les certificats avant leur expiration. Toujours." },
     { title: "Maître du Load Balancer",   power: "Répartit la charge si bien que personne ne la sent." },
-    { title: "Sorcier du Shell",          power: "Écrit un script bash de 200 lignes qui marche du premier coup." }
+    { title: "Sorcier du Shell",          power: "Écrit un script bash de 200 lignes qui marche du premier coup." },
+    { title: "Chevalier du Git",          power: "Résout un conflit de merge les yeux fermés sans jamais faire de force push." }
   ],
 
   // manies (dos de la carte)
@@ -35,7 +36,8 @@ window.GAME_DATA = {
     "Connaît son adresse IP publique par cœur.",
     "Met des alias partout, même pour ls.",
     "Vérifie trois fois avant un rm -rf.",
-    "Documente ses scripts. Vraiment."
+    "Documente ses scripts. Vraiment.",
+    "Fait un git status toutes les dix secondes, même sans rien modifier."
   ],
 
   // objets fétiches
@@ -47,7 +49,8 @@ window.GAME_DATA = {
     "Raspberry Pi qui héberge tout son réseau",
     "Carnet rempli d'adresses IP",
     "Casque antibruit pour la salle serveur",
-    "Câble console bleu de Cisco"
+    "Câble console bleu de Cisco",
+    "Stickers Git et Linux collés sur le capot du PC"
   ],
 
   // devises d'équipe
@@ -59,7 +62,8 @@ window.GAME_DATA = {
     "Une sauvegarde non testée n'est pas une sauvegarde.",
     "Automatiser une fois, dormir pour toujours.",
     "Zéro downtime, zéro stress.",
-    "Le pipeline est vert, tout va bien."
+    "Le pipeline est vert, tout va bien.",
+    "Dans le doute, on commit et on crée une branche."
   ],
 
   // nom d'équipe : animal + adjectif accordé
@@ -103,10 +107,10 @@ window.GAME_DATA = {
 
   // rangs d'équipe selon la puissance moyenne par membre
   ranks: [
-    { min: 0,   label: "Stagiaires du helpdesk" },
-    { min: 170, label: "Admins sys confirmés" },
-    { min: 210, label: "Ingénieurs réseau" },
-    { min: 250, label: "Architectes cloud" },
-    { min: 290, label: "Légendes de l'astreinte" }
+    { min: 0,   label: "Apprentis du terminal" },
+    { min: 170, label: "Maîtres du commit" },
+    { min: 210, label: "Chevaliers du déploiement" },
+    { min: 250, label: "Seigneurs de la prod" },
+    { min: 290, label: "Divinités du Git" }
   ]
 };
